@@ -1,0 +1,4 @@
+function setButtonURL() {
+    XLPHelper.wantToLiveChat();
+}
+function xlpAddMonitorTag(e){if(typeof e=="undefined"||typeof e=="object"){e=xlpMTagConfig.xlpMTagSrc?xlpMTagConfig.xlpMTagSrc:"/bundles/tracking"}if(e.indexOf("https")!=0){e=xlpMTagConfig.xlpProtocol+"://"+xlpMTagConfig.xlpCode+"."+xlpMTagConfig.xlpServer+e}else{if(e.indexOf("site=")<0){if(e.indexOf("?")<0)e=e+"?";else e=e+"&";e=e+"site="+xlpMTagConfig.xlpNumber}}var t=document.createElement("script");t.setAttribute("type","text/javascript");t.setAttribute("charset","iso-8859-1");t.setAttribute("src",e);document.getElementsByTagName("head").item(0).appendChild(t)}xlpMTagConfig={xlpServer:"onlinechatpro.com",xlpCode:"od",xlpProtocol:"https"};xlpAddMonitorTag();

@@ -1750,9 +1750,9 @@ Popup Close BUtton
           box-shadow: 0 0 2px 0.2rem rgba(253, 180, 21, 0.3);
 }
 .btn.btn-primary:not(:disabled):not(.disabled).active, .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:hover, .btn.btn-primary.focus, .btn.btn-primary:focus {
-  background-color: #fddb00;
-  border-color: #fddb00;
-  color: #000000;
+  background-color: #641296;
+  border-color: #641296;
+  color: #fff;
   -webkit-filter: brightness(1.15);
           filter: brightness(1.15);
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
